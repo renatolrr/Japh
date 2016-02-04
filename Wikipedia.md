@@ -119,4 +119,15 @@ ASCII art (to make this dromedary-shaped code work, the console size needs to be
                         #@@@@@@@@@@@
 
 ```
-Fuente: https://en.wikipedia.org/wiki/Just_another_Perl_hacker
+  
+#References  
+  
+This article is based on material taken from the Free On-line Dictionary of Computing prior to 1 November 2008 and incorporated under the "relicensing" terms of the GFDL, version 1.3 or later.  
+  
+Randal L. Schwartz in Usenet message M1HFPVH2JQ.FSF@HALFDOME.HOLDIT.COM explaining the origin of JAPH. Available through Google.com Plover.com  
+Originally posted at perlmonks.org by user blokhead   
+Originally posted at perlmonks.org by user liverpole.  
+  
+Fuente: https://en.wikipedia.org/wiki/Just_another_Perl_hacker  
+  
+

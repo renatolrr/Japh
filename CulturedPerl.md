@@ -1,6 +1,6 @@
 #	Cultured Perl: The elegance of JAPH  
   
-##JAPH: "Just another Perl hacker  
+##JAPH: "Just another Perl hacker"  
   
 The JAPH format was popularized, to the best of our knowledge, by Randal Schwartz in the early 1990s (several sources agree on this). To this day JAPHs can be found in the wild, produced by tireless artists of the genre such as Abigail on the comp.lang.perl.misc newsgroup.
   
@@ -220,3 +220,29 @@ We've looked at a variety of fun mini-scripts, and examined a lot of interesting
 But take heart, decoding JAPHs does get easier with practice. Simple tricks, like encoding the string in hex or changing the $, variable get easy to spot (but be careful with them nevertheless).
   
 My thanks to all the people that have put time and effort into crafting the JAPHs. Every JAPH teaches something new, and is a delight to behold. No other language, to my knowledge, has such a concise obfuscated form (although no one is sure if that is a source of pride or shame). There are obfuscation contests in many other languages, though. If you are interested in learning or participating, see Resources for places to go. C obfuscation contests are particularly noteworthy.
+  
+##Resources
+  
+Look through the great JAPH list on CPAN.
+
+Read a short introduction to JAPH structure and a decoded example.
+
+Find a collection of slides by Abigail (one of the masters of the form) on the topic of the JAPH.
+
+Visit CPAN for all the Perl modules you ever wanted.
+
+Check out Perl.com for Perl information and related resources.
+
+Programming Perl, 3rd Edition by Larry Wall, Tom Christiansen, and Jon Orwant (O'Reilly & Associates, 2000) is the best guide to Perl today, up-to-date with 5.005 and 5.6.0 now.
+
+Check out a few contenders in the 5th annual Obfuscated Perl Contest.
+
+For related articles by this author, see "Cultured Perl: One-liners 101" and "Cultured Perl: Perl 5.6 for C and Java programmers" on developerWorks.
+
+Browse more Linux resources on developerWorks.
+
+Browse more Open source resources on developerWorks.
+  
+##About the author  
+  
+Teodor Zlatanov graduated with an M.S. in computer engineering from Boston University in 1999. He has worked as a programmer since 1992, using Perl, Java, C, and C++. His interests are in open source work on text parsing, 3-tier client-server database architectures, UNIX system administration, CORBA, and project management. Suggestions and corrections are welcome over e-mail. Contact Teodor at tzz@iglou.com.   

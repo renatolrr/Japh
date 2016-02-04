@@ -11,40 +11,40 @@ The idea of using tiny Perl programs which print a signature as a signature was 
 #Examples  
   
 JAPH program without obfuscation:
-
+```
 print "Just another Perl hacker,";
-
+```
 Embedding JAPH in opaque code:
-
+```
 $_='987;s/^(\d+)/$1-1/e;$1?eval:print"Just another Perl hacker,"';eval;
-
+```
 Decoding JAPH from a transposed string literal:
-
+```
 $_="krJhruaesrltre c a cnP,ohet";$_.=$1,print$2while s/(..)(.)//;
-
+```
 Printing out JAPH as separate processes:
-
+```
 for $i (0..4) { if (!fork) {
       $i == 0 or not { $SIG{INT} = sub { print "J" } } or
       $i == 1 or not { $SIG{INT} = sub { print "A" } } or
       $i == 2 or not { $SIG{INT} = sub { print "P" } } or
       $i == 3 or not { $SIG{INT} = sub { print "H" } } ;
       sleep $i; last; } } kill INT => $$;
-
+```
 Appearing as if it does something completely unrelated to printing JAPH:
-
+```
 $_ = "wftedskaebjgdpjgidbsmnjgc";
 tr/a-z/oh, turtleneck Phrase Jar!/; print;
-
+```
 Forking processes to print out one letter each in the correct order:[2]
-
+```
 @P=split//,".URRUU\c8R";@d=split//,"\nrekcah xinU / lreP rehtona tsuJ";sub p{
 @p{"r$p","u$p"}=(P,P);pipe"r$p","u$p";++$p;($q*=2)+=$f=!fork;map{$P=$P[$f^ord
 ($p{$_})&6];$p{$_}=/ ^$P/ix?$P:close$_}keys%p}p;p;p;p;p;map{$p{$_}=~/^[P.]/&&
 close$_}%p;wait until$?;map{/^r/&&<$_>}%p;$_=$d[$q];sleep rand(2)if/\S/;print
-
+```
 Using only Perl keywords (no literals or punctuation):[3]
-
+```
 not exp log srand xor s qq qx xor
 s x x length uc ord and print chr
 ord for qw q join use sub tied qx
@@ -59,21 +59,21 @@ s s and eval q s undef or oct xor
 time xor ref print chr int ord lc
 foreach qw y hex alarm chdir kill
 exec return y s gt sin sort split
-
+```
 Using only punctuation, no alphanumeric characters (written by Eric Roode; only works on Unix and Unix-like systems):
-
+```
 `$=`;$_=\%!;($_)=/(.)/;$==++$|;($.,$/,$,,$\,$",$;,$^,$#,$~,$*,$:,@%)=(
 $!=~/(.)(.).(.)(.)(.)(.)..(.)(.)(.)..(.)......(.)/,$"),$=++;$.++;$.++;
 $_++;$_++;($_,$\,$,)=($~.$"."$;$/$%[$?]$_$\$,$:$%[$?]",$"&$~,$#,);$,++
 ;$,++;$^|=$";`$_$\$,$/$:$;$~$*$%[$?]$.$~$*${#}$%[$?]$;$\$"$^$~$*.>&$=`
-
+```
 A much shorter one, using only punctuation, based on the EyeDrops module:
-
+```
 ''=~('(?{'.('-)@.)@_*([]@!@/)(@)@-@),@(@@+@)'
 ^'][)@]`}`]()`@.@]@%[`}%[@`@!#@%[').',"})')
-
+```
 ASCII art (to make this dromedary-shaped code work, the console size needs to be set to at least 119×48):[4]
-
+```
                                                        #
                                                    sub j(\$){($
                      P,$V)=                      @_;while($$P=~s:^
@@ -120,3 +120,4 @@ ASCII art (to make this dromedary-shaped code work, the console size needs to be
                            #liverpole                                  @@@@@@@
                         #@@@@@@@@@@@
 
+```

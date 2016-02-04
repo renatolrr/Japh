@@ -1654,3 +1654,4 @@ $_="cker,rl haer PeanothJust ";1 while s/(.{5})(.{5})?/$_{$2}=$1,$2/e;print whil
 %%   
 
 ```
+Fuente: http://www.cpan.org/misc/japh
